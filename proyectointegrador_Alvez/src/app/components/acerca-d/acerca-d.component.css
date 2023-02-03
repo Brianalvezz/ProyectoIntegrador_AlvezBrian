@@ -1,0 +1,105 @@
+.row{
+    padding: 20px;
+}
+/*Color de fondo y alineacion del texto de "Acerca De"*/
+div{
+    background-color: #a1b5c1;
+    text-align: center;
+}
+/*Configuración de estilos para cada tamaño*/
+@media (min-width: 1px) {
+    #nombre{
+        margin-top: -5%;
+    }
+    #carrera {
+
+    }
+    #fotodeperfil{
+        position: absolute;
+        width: 35%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(96, 96, 96);
+        left: 33%;
+        margin-top: -42%;
+    }
+    #acercade {
+
+    }
+    #textodead{
+
+    }
+}
+@media (min-width: 576px) {
+    #nombre{
+      
+      margin-top: 50%;
+    }
+    #carrera {
+
+    }
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(96, 96, 96);
+        left: 2%;
+        margin-top: -20%;
+    }
+    #acercade {
+
+    }
+    #textodead{
+
+    }
+}
+@media (min-width: 700px) {
+    #nombre{
+        
+    }
+    #carrera {
+
+    }
+    #fotodeperfil{
+        position: absolute;
+        width: 20%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(96, 96, 96);
+        left: 10%;
+        margin-top: -12%;
+    }
+    #acercade {
+
+    }
+    #textodead{
+
+    }
+}
+@media (min-width: 1200px) {
+    #nombre{
+        
+    }
+    #carrera {
+
+    }
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(96, 96, 96);
+        left: 10%;
+        margin-top: -10%;
+    }
+    #acercade {
+
+    }
+    #textodead{
+
+    }
+}
+/*Etiqueta del nombre y carrera en el componente "Acerca De"*/
+#nombre{
+    font-weight: bold;
+}
+#carrera{
+    font-weight: 400;
+}
