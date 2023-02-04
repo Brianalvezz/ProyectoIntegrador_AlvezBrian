@@ -1,3 +1,42 @@
-img{
-    width: 50px;
+@media (min-width: 1px) {
+    #facebook {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        float: right;
+        top: -58px;
+        left: -6px;
+    }
+    #linkedin {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        float: right;
+        top: -58px;
+        left: -4px;
+    }
+    #twitter {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        float: right;
+        top: -58px;
+        left: -8px;
+    }
+    #github {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        float: right;
+        top: -58px;
+        left: -2px;
+    }
+    #instagram {
+        position: relative;
+        width: 8%;
+        height: 8%;
+        float: right;
+        top: -58px;
+        left: -10px;
+    }
 }

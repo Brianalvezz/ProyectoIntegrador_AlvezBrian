@@ -1,7 +1,7 @@
-div{
+#header {
     background-color: #a1b5cb;
 }
 app-socialmedia{
     float: right;
-    margin-top: 25px;
+    margin-top: 10px;
 }
