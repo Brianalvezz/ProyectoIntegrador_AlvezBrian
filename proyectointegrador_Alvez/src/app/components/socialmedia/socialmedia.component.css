@@ -1,42 +1,253 @@
+/*Configuración de estilos para cada tamaño*/
 @media (min-width: 1px) {
-    #facebook {
-        position: relative;
+    #github {
+        position: absolute;
         width: 8%;
-        height: 8%;
-        float: right;
-        top: -58px;
-        left: -6px;
+        left: 91.5%;
+        margin-top: -12%;
     }
     #linkedin {
-        position: relative;
-        width: 8%;
-        height: 8%;
+        position: absolute;
         float: right;
-        top: -58px;
-        left: -4px;
-    }
-    #twitter {
-        position: relative;
         width: 8%;
-        height: 8%;
-        float: right;
-        top: -58px;
-        left: -8px;
-    }
-    #github {
-        position: relative;
-        width: 8%;
-        height: 8%;
-        float: right;
-        top: -58px;
-        left: -2px;
+        left: 83%;
+        margin-top: -12%;
     }
     #instagram {
-        position: relative;
-        width: 8%;
-        height: 8%;
+        position: absolute;
         float: right;
-        top: -58px;
-        left: -10px;
+        width: 8%;
+        left: 74.5%;
+        margin-top: -12%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 8%;
+        left: 66%;
+        margin-top: -12%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 8%;
+        left: 57.5%;
+        margin-top: -12%;
+    }
+}
+@media (min-width: 460px) {
+    #github {
+        position: absolute;
+        width: 5%;
+        left: 94%;
+        margin-top: -8%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 5%;
+        left: 88.5%;
+        margin-top: -8%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 5%;
+        left: 83%;
+        margin-top: -8%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 5%;
+        left: 77.5%;
+        margin-top: -8%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 5%;
+        left: 72%;
+        margin-top: -8%;
+    }
+}
+@media (min-width: 750px) {
+    #github {
+        position: absolute;
+        width: 4%;
+        left: 95%;
+        margin-top: -7.5%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 4%;
+        left: 90.7%;
+        margin-top: -7.5%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 4%;
+        left: 86.4%;
+        margin-top: -7.5%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 4%;
+        left: 82.1%;
+        margin-top: -7.5%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 4%;
+        left: 77.8%;
+        margin-top: -7.5%;
+    }
+}
+@media (min-width: 900px) {
+    #github {
+        position: absolute;
+        width: 3%;
+        left: 96.7%;
+        margin-top: -6%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 3%;
+        left: 93.5%;
+        margin-top: -6%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 3%;
+        left: 90.3%;
+        margin-top: -6%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 3%;
+        left: 87.1%;
+        margin-top: -6%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 3%;
+        left: 83.9%;
+        margin-top: -6%;
+    }
+}
+@media (min-width: 1400px) {
+    #github {
+        position: absolute;
+        width: 2.5%;
+        left: 97%;
+        margin-top: -5%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 94.4%;
+        margin-top: -5%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 91.8%;
+        margin-top: -5%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 89.2%;
+        margin-top: -5%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 86.6%;
+        margin-top: -5%;
+    }
+}
+@media (min-width: 1600px) {
+    #github {
+        position: absolute;
+        width: 2.5%;
+        left: 97%;
+        margin-top: -5.5%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 94.4%;
+        margin-top: -5.5%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 91.8%;
+        margin-top: -5.5%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 89.2%;
+        margin-top: -5.5%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 86.6%;
+        margin-top: -5.5%;
+    }
+}
+@media (min-width: 1900px) {
+    #github {
+        position: absolute;
+        width: 2.5%;
+        left: 97%;
+        margin-top: -5%;
+    }
+    #linkedin {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 94.4%;
+        margin-top: -5%;
+    }
+    #instagram {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 91.8%;
+        margin-top: -5%;
+    }
+    #twitter {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 89.2%;
+        margin-top: -5%;
+    }
+    #facebook {
+        position: absolute;
+        float: right;
+        width: 2.5%;
+        left: 86.6%;
+        margin-top: -5%;
     }
 }
