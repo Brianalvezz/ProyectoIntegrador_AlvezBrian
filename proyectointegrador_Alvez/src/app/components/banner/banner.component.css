@@ -1,6 +1,6 @@
-/*Configuración de estilos para cada tamaño*/
-@media (min-width: 950px) {
-    #banner {
-        width: 100%;
-    }
+.row{
+    display: block;
+    margin-top: 2%;
+    line-height: 0;
+    border-image-width: -20;
 }
